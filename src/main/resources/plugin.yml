@@ -1,0 +1,24 @@
+﻿name: ${name}
+version: ${version}
+description: ${description}
+
+author: ${author}
+website: ${url}
+
+main: ${mainClass}
+load: POSTWORLD
+database: false
+depend: []
+softdepend: []
+
+commands:
+    tspver:
+        description: Show version
+        permission: testspigotplugin.version
+        usage: /<command>
+        aliases: []
+
+permissions:
+  testspigotplugin.version:
+    description: Get version information
+    default: true
